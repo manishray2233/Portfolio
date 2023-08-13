@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import { Bio } from "../../data/constants";
+import Typewriter from "typewriter-effect";
 
 const HeroContainer = styled.div`
   background-color: ${({ theme }) => theme.card_light};
@@ -77,16 +79,107 @@ const HeroRightContainer = styled.div`
   display: flex;
   justify-content: end;
   gap: 12px;
+
   @media screen and (max-width: 960px) {
     order: 1;
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
   }
+
   @media screen and (max-width: 640px) {
     order: 1;
     margin-bottom: 30px;
   }
+`;
+
+const Title = styled.div`
+  font-size: 50px;
+  font-weight: 700;
+  color: ${({ theme }) => theme.text_primary};
+  line-height: 68px;
+  @media screen and (max-width: 960px) {
+    text-align: center;
+  }
+
+  @media screen and (max-width: 640px) {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 8px;
+  }
+`;
+
+const TextLoop = styled.div`
+  font-size: 32px;
+  font-weight: 600;
+  color: ${({ theme }) => theme.text_primary};
+  line-height: 68px;
+  gap: 12px;
+  display: flex;
+  @media screen and (max-width: 960px) {
+    text-align: center;
+  }
+
+  @media screen and (max-width: 640px) {
+    font-size: 22px;
+    line-height: 48px;
+    margin-bottom: 16px;
+  }
+`;
+
+const Span = styled.div`
+  color: ${({ theme }) => theme.primary};
+  cursor: pointer;
+`;
+
+const SubTitle = styled.div`
+  font-size: 20px;
+  color: ${({ theme }) => theme.text_primary + 95};
+  line-height: 32px;
+  margin-bottom: 42px;
+  @media screen and (max-width: 960px) {
+    text-align: center;
+  }
+
+  @media screen and (max-width: 640px) {
+    font-size: 16px;
+    line-height: 32px;
+  }
+`;
+
+const ResumeButton = styled.a`
+-webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    width: 95%;
+    max-width: 300px;
+    text-align: center;
+    padding: 16px 0;
+    color:${({ theme }) => theme.white};
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out !important;
+    background: hsla(271, 100%, 50%, 1);
+    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    box-shadow:  20px 20px 60px #1F2634,
+    -20px -20px 60px #1F2634;
+    &:hover {
+        transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+    box-shadow:  20px 20px 60px #1F2634,
+    filter: brightness(1);
+    }    
+    
+    
+    @media (max-width: 640px) {
+        padding: 12px 0;
+        font-size: 18px;
+    } 
 `;
 
 const Hero = () => {
@@ -95,7 +188,28 @@ const Hero = () => {
       <HeroContainer>
         <HeroBg></HeroBg>
         <HeroInnerContainer>
-          <HeroLeftContainer></HeroLeftContainer>
+          <HeroLeftContainer>
+            <Title>
+              Hi, I am <br />
+              {Bio.name}
+            </Title>
+            <TextLoop>
+              I am a
+              <Span>
+                <Typewriter
+                  options={{
+                    strings: Bio.roles,
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </Span>
+            </TextLoop>
+            <SubTitle>{Bio.description}</SubTitle>
+            <ResumeButton href={Bio.resume} target="_blank">
+              Check Resume
+            </ResumeButton>
+          </HeroLeftContainer>
           <HeroRightContainer></HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
