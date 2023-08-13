@@ -1,7 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
+import { Bio } from "../../data/constants";
+import HeroImg from "../../images/HeroImage.jpg";
+import HeroBgAnimation from "../HeroBgAnimation";
 
 const HeroContainer = styled.div`
   background-color: ${({ theme }) => theme.card_light};
@@ -31,8 +33,8 @@ const HeroBg = styled.div`
   bottom: 0;
   left: 50%;
   overflow: hidden;
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 92%;
   padding: 0 30px;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
@@ -159,7 +161,7 @@ const ResumeButton = styled.a`
     color:${({ theme }) => theme.white};
     border-radius: 20px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 20px; 
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
     background: hsla(271, 100%, 50%, 1);
@@ -174,19 +176,41 @@ const ResumeButton = styled.a`
     box-shadow:  20px 20px 60px #1F2634,
     filter: brightness(1);
     }    
-    
-    
+        
     @media (max-width: 640px) {
         padding: 12px 0;
         font-size: 18px;
     } 
 `;
 
+const Image = styled.img`
+  width: 100%;
+  position: relative;
+  border-radius: 50%;
+  max-width: 400px;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid ${({ theme }) => theme.primary};
+
+  @media screen and (max-width: 960px) {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  @media screen and (max-width: 640px) {
+    max-width: 280px;
+    max-height: 280px;
+  }
+`;
+
 const Hero = () => {
   return (
     <div id="about">
       <HeroContainer>
-        <HeroBg></HeroBg>
+        <HeroBg>
+          <HeroBgAnimation />
+        </HeroBg>
         <HeroInnerContainer>
           <HeroLeftContainer>
             <Title>
@@ -210,7 +234,9 @@ const Hero = () => {
               Check Resume
             </ResumeButton>
           </HeroLeftContainer>
-          <HeroRightContainer></HeroRightContainer>
+          <HeroRightContainer>
+            <Image src={HeroImg} alt="Hero" />
+          </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
     </div>
