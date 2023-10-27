@@ -443,7 +443,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Whatsapp Clone",
+    title: "Threads Clone",
     date: "Jul 2021",
     description:
       "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
