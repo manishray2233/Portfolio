@@ -106,6 +106,10 @@ export const Img = styled.img`
     max-height: 400px;
   }
 
+  @media (max-width: 1440px) {
+    width: 400px;
+    height: 400px;
+  }
   @media (max-width: 640px) {
     max-width: 280px;
     max-height: 280px;
