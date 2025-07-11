@@ -74,7 +74,7 @@ const TimelineSection = styled.div`
 const index = () => {
   return (
     <Container id="experience">
-      {/* <Wrapper>
+       <Wrapper>
         <Title>Experience</Title>
         <Desc>
           My work experience as a software engineer and working on different
@@ -97,7 +97,7 @@ const index = () => {
             ))}
           </Timeline>
         </TimelineSection>
-      </Wrapper> */}
+      </Wrapper> 
     </Container>
   );
 };
