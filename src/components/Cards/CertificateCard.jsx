@@ -139,11 +139,21 @@ const Skill = styled.div`
   }
 `;
 
-const ExperienceCard = ({ certificate }) => {
+const CertificateCard = ({ certificate }) => {
+
+// Convert Google Drive "view" link -> thumbnail (export=thumbnail) or preview
+  const getThumbnailUrl = (url) => {
+    const match = url.match(/\/d\/([^/]+)\//);
+    if (match && match[1]) {
+      return `https://drive.google.com/thumbnail?id=${match[1]}`;
+    }
+    return null;
+  };
+
   return (
     <Card>
       <Top>
-        <Image src={certificate.img} />
+        <Image src={certificate.img} style={{width: "50px", height: "50px"}}/>
         <Body>
           <Role>{certificate.role}</Role>
           <Company>{certificate.company}</Company>
@@ -167,13 +177,17 @@ const ExperienceCard = ({ certificate }) => {
           </>
         )}
       </Description>
-      {certificate.doc && (
-        <a href={certificate.doc} target="new">
-          <Document src={certificate.doc} />
+     
+       {certificate.doc && (
+        <a href={certificate.doc} target="_blank" rel="noopener noreferrer">
+          <Document
+            src={getThumbnailUrl(certificate.doc)}
+            alt="Certificate Preview"
+          />
         </a>
       )}
     </Card>
   );
 };
 
-export default ExperienceCard;
+export default CertificateCard;
