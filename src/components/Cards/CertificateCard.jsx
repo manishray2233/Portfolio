@@ -139,35 +139,27 @@ const Skill = styled.div`
   }
 `;
 
-const ExperienceCard = ({ experience }) => {
+const ExperienceCard = ({ certificate }) => {
   return (
     <Card>
       <Top>
-        <Image src={experience.img} />
+        <Image src={certificate.img} />
         <Body>
-          <Role>{experience.role}</Role>
-          <Company>{experience.company}</Company>
-          <Date>{experience.date}</Date>
+          <Role>{certificate.role}</Role>
+          <Company>{certificate.company}</Company>
+          <Date>{certificate.date}</Date>
         </Body>
       </Top>
       <Description>
-        {experience?.desc?.intro && <p>{experience.desc.intro}</p>}
+        {certificate?.desc && <Span>{certificate?.desc}</Span>}
 
-        {experience?.desc?.points && (
-          <ul style={{ marginTop: "10px", paddingLeft: "20px" }}>
-            {experience.desc.points.map((point, index) => (
-              <li key={index} style={{marginBottom: "10px", listStyleType: "disc"}}>{point}</li>
-            ))}
-          </ul>
-        )}
-
-        {experience?.skills && (
+        {certificate?.skills && (
           <>
             <br />
             <Skills>
               <b>Skills:</b>
               <ItemWrapper>
-                {experience?.skills?.map((skill, index) => (
+                {certificate?.skills?.map((skill, index) => (
                   <Skill>• {skill}</Skill>
                 ))}
               </ItemWrapper>
@@ -175,9 +167,9 @@ const ExperienceCard = ({ experience }) => {
           </>
         )}
       </Description>
-      {experience.doc && (
-        <a href={experience.doc} target="new">
-          <Document src={experience.doc} />
+      {certificate.doc && (
+        <a href={certificate.doc} target="new">
+          <Document src={certificate.doc} />
         </a>
       )}
     </Card>
