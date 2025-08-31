@@ -254,7 +254,7 @@ export const certifications = [
     ],
     doc: "https://drive.google.com/file/d/1v6P0qDGtIgJpfDeJFbtIKBxDU7qxzMYS/view"
   },
-   {
+  {
     id: 4,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGKQNpE5KbwgQjYkdxK6sLoEyhPeacS7RKgw&s",
     role: "SEO",
@@ -270,7 +270,7 @@ export const certifications = [
     ],
     doc: "https://drive.google.com/file/d/1OKdWGGAe8CtLXAFTuhCA4X66q9YysCK_/view"
   },
-  
+
 ];
 
 export const education = [
@@ -306,6 +306,43 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Porsche Strategic Marketing",
+    date: "Aug 2025",
+    description: "I created a strategic marketing & media plan for Porsche 🚗 aimed at reversing sales decline and boosting EV adoption.\n\nI analyzed the market challenges including a 6% global sales drop, 49% decline in Taycan sales, US tariffs, and consumer skepticism toward EVs.\n\nI set SMART goals 🎯 to increase deliveries by 15% by 2026, maintain 15–17% profitability, and achieve a 40% EV mix by 2027.\n\nI conducted PESTLE & SWOT analyses 📊, studied digital-first luxury buyer behavior, and built personas like eco-conscious professionals and performance enthusiasts.\n\nI benchmarked Porsche against Tesla, Ferrari, and Mercedes EQ, then designed a $13.5M POEM media plan 💡 across Google, Meta, influencers, Porsche.com, MyPorsche app, and press.\n\nThe plan projected 450–500M impressions, 25K–30K leads, 3.5K–4.2K test drives, and 4.2–4.8:1 ROAS 📈.\n\nI positioned Porsche as a luxury EV leader while preserving its heritage, focusing on APAC growth, personalization, and sustainability 🌍, with a roadmap that included pilot campaigns, regional adaptation, and digital-first innovations.",
+    image:
+      "https://media.licdn.com/dms/image/v2/D562DAQFOxCQ7_XdouA/profile-treasury-document-cover-images_480/B56Zj17kZmHMBM-/0/1756472814752?e=1757246400&v=beta&t=glGV-n_RzhmSY0eqQXOOjhV48PBghGapPiSKKNiEwTA",
+    tags: ["React Native", "JavaScript", "Axios"],
+    category: "marketing",
+    github: "https://github.com/manishray2233/Job_app",
+    webapp: "https://github.com/manishray2233/Job_app",
+  },
+  {
+    id: 1,
+    title: "Affiliate Marketing Strategy for Myntra",
+    date: "Aug 2025",
+    "description": "I developed a comprehensive affiliate marketing strategy for Myntra 🛍️, focusing on boosting sales 📈, acquiring Gen Z and Tier 2/3 customers, and driving repeat purchases.\n\nI conducted market & competitor research, built customer personas like Trendy Tina 👗, and designed a partner mix with influencers, publishers, coupon sites, and cashback platforms.\n\nI created tiered commission structures 💰, seasonal bonuses, and regional campaigns supported by reels, UGC, and festival tie-ins.\n\nTo measure impact, I set up KPI tracking and ROI dashboards 📊, while introducing AI fraud detection, AR try-ons, and live shopping pilots.\n\nThe plan projected a strong 4:1 ROI, proving affiliate marketing as a scalable growth engine.",
+    image:
+      "https://media.licdn.com/dms/image/v2/D562DAQF-RPAJjuWrhg/profile-treasury-document-cover-images_480/B56Zj12zpcHMCE-/0/1756471523019?e=1757246400&v=beta&t=PQOrmOBy9rmVgb9Z6Hja969AVktTFCfUfX5wHWhidAg",
+    tags: ["React Native", "JavaScript", "Axios"],
+    category: "marketing",
+    github: "https://github.com/manishray2233/Job_app",
+    webapp: "https://github.com/manishray2233/Job_app",
+  },
+  {
+    id: 2,
+    title: "IMC Plan for TATA Motors",
+    date: "July 2025",
+    "description": "I created a strategic IMC plan for Tata Nexon EV 2025 ⚡ to help Tata regain >45% EV market share 🏆.\n\nI analyzed the Indian EV market, ran a SWOT & competitor study (MG, Mahindra, Hyundai, BYD), and built personas 👥 like tech-savvy professionals and eco-conscious influencers to refine targeting.\n\nI designed a multi-channel mix – Digital & Influencer (40%), Traditional (30%), Experiential (20%), and Regional (10%) – with a ₹10 Cr budget 💰.\n\nThe plan focused on brand recall, test drives, and lead generation, with strong risk management strategies for safety, subsidies, and charging gaps.\n\nFinally, I positioned Tata as “India’s EV for Everyone” 🇮🇳 through aggressive, data-driven marketing."
+,
+    image:
+      "https://media.licdn.com/dms/image/v2/D562DAQEhQPNB6DzFIg/profile-treasury-document-cover-images_480/B56Zj2hI2AHABM-/0/1756482569121?e=1757246400&v=beta&t=ZA-wrdIAehi7t5K_rCu5XBOIwlGUD6lhVOrNZoemxno",
+    tags: ["React Native", "JavaScript", "Axios"],
+    category: "marketing",
+    github: "https://github.com/manishray2233/Job_app",
+    webapp: "https://github.com/manishray2233/Job_app",
+  },
+  {
+    id: 2,
     title: "Threads",
     date: "Aug 2023 - Sep 2023",
     description:
@@ -344,21 +381,21 @@ export const projects = [
     github: "https://github.com/manishray2233/Job_app",
     webapp: "https://github.com/manishray2233/Job_app",
   },
+  // {
+  //   id: 2,
+  //   title: "Amazon Clone",
+  //   date: "Oct 2023 - Oct 2023",
+  //   description:
+  //     "The Amazon Clone App is a mobile app created using React Native. It's designed for learning React Native technology by replicating the key features and appearance of the Amazon app. Users can browse products, manage accounts, and make transactions within a familiar Amazon-like interface. The goal is to gain practical experience and improve React Native skills through this project.",
+  //   image:
+  //     "https://user-images.githubusercoent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+  //   tags: ["React Native", "JavaScript", "Axios"],
+  //   category: "android app",
+  //   github: "https://github.com/manishray2233/ecommerce-project",
+  //   webapp: "https://github.com/manishray2233/ecommerce-project",
+  // },
   {
     id: 2,
-    title: "Amazon Clone",
-    date: "Oct 2023 - Oct 2023",
-    description:
-      "The Amazon Clone App is a mobile app created using React Native. It's designed for learning React Native technology by replicating the key features and appearance of the Amazon app. Users can browse products, manage accounts, and make transactions within a familiar Amazon-like interface. The goal is to gain practical experience and improve React Native skills through this project.",
-    image:
-      "https://user-images.githubusercoent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "https://github.com/manishray2233/ecommerce-project",
-    webapp: "https://github.com/manishray2233/ecommerce-project",
-  },
-  {
-    id: 3,
     title: "Blog App 🚀",
     date: "Sep 2023 - Oct 2023",
     description:
@@ -370,32 +407,33 @@ export const projects = [
     github: "https://github.com/manishray2233/blog",
     webapp: "https://github.com/manishray2233/blog",
   },
-  {
-    id: 4,
-    title: "To Do List",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "The MERN Todo App is a modern and efficient task management application built using the MERN stack, which stands for MongoDB, Express.js, React, and Node.js. This full-stack web application seamlessly integrates these technologies to deliver a robust and responsive user experience. 🌐",
-    image:
-      "https://raw.githubusercontent.com/manishray2233/images/main/Screenshot%20from%202023-10-28%2011-32-47.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
-    category: "web app",
-    github: "https://github.com/manishray2233/todos-list",
-    webapp: "https://github.com/manishray2233/todos-list",
-  },
-  {
-    id: 5,
-    title: "Contact Manager",
-    date: "Sep 2023 - Oct 2023",
-    description:
-      "The MERN Contact Manager app is a powerful and efficient tool designed to streamline the process of managing contacts. Built on the MERN stack, which stands for MongoDB, Express.js, React, and Node.js, this application leverages a robust technology stack to deliver a seamless and responsive user experience. 🌐",
-    image:
-      "https://raw.githubusercontent.com/manishray2233/images/main/Screenshot%20from%202023-10-28%2011-44-54.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
-    category: "web app",
-    github: "https://github.com/manishray2233/React-CRUD",
-    webapp: "https://github.com/manishray2233/React-CRUD",
-  },
+  // {
+  //   id: 4,
+  //   title: "To Do List",
+  //   date: "Jun 2023 - Jul 2023",
+  //   description:
+  //     "The MERN Todo App is a modern and efficient task management application built using the MERN stack, which stands for MongoDB, Express.js, React, and Node.js. This full-stack web application seamlessly integrates these technologies to deliver a robust and responsive user experience. 🌐",
+  //   image:
+  //     "https://raw.githubusercontent.com/manishray2233/images/main/Screenshot%20from%202023-10-28%2011-32-47.png",
+  //   tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
+  //   category: "web app",
+  //   github: "https://github.com/manishray2233/todos-list",
+  //   webapp: "https://github.com/manishray2233/todos-list",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Contact Manager",
+  //   date: "Sep 2023 - Oct 2023",
+  //   description:
+  //     "The MERN Contact Manager app is a powerful and efficient tool designed to streamline the process of managing contacts. Built on the MERN stack, which stands for MongoDB, Express.js, React, and Node.js, this application leverages a robust technology stack to deliver a seamless and responsive user experience. 🌐",
+  //   image:
+  //     "https://raw.githubusercontent.com/manishray2233/images/main/Screenshot%20from%202023-10-28%2011-44-54.png",
+  //   tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
+  //   category: "web app",
+  //   github: "https://github.com/manishray2233/React-CRUD",
+  //   webapp: "https://github.com/manishray2233/React-CRUD",
+  // },
+
 ];
 
 export const TimeLineData = [
