@@ -306,27 +306,25 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Porsche Strategic Marketing",
+    title: "Strategic Marketing",
     date: "Aug 2025",
     description: "I created a strategic marketing & media plan for Porsche 🚗 aimed at reversing sales decline and boosting EV adoption.\n\nI analyzed the market challenges including a 6% global sales drop, 49% decline in Taycan sales, US tariffs, and consumer skepticism toward EVs.\n\nI set SMART goals 🎯 to increase deliveries by 15% by 2026, maintain 15–17% profitability, and achieve a 40% EV mix by 2027.\n\nI conducted PESTLE & SWOT analyses 📊, studied digital-first luxury buyer behavior, and built personas like eco-conscious professionals and performance enthusiasts.\n\nI benchmarked Porsche against Tesla, Ferrari, and Mercedes EQ, then designed a $13.5M POEM media plan 💡 across Google, Meta, influencers, Porsche.com, MyPorsche app, and press.\n\nThe plan projected 450–500M impressions, 25K–30K leads, 3.5K–4.2K test drives, and 4.2–4.8:1 ROAS 📈.\n\nI positioned Porsche as a luxury EV leader while preserving its heritage, focusing on APAC growth, personalization, and sustainability 🌍, with a roadmap that included pilot campaigns, regional adaptation, and digital-first innovations.",
     image:
-      "https://media.licdn.com/dms/image/v2/D562DAQFOxCQ7_XdouA/profile-treasury-document-cover-images_480/B56Zj17kZmHMBM-/0/1756472814752?e=1757246400&v=beta&t=glGV-n_RzhmSY0eqQXOOjhV48PBghGapPiSKKNiEwTA",
-    tags: ["React Native", "JavaScript", "Axios"],
+      "https://raw.githubusercontent.com/manishray2233/images/refs/heads/main/Porsche.jpg",
+    tags: ["Strategic Marketing", "Market Research","Campaign Strategy","Marketing Strategy"],
     category: "marketing",
-    github: "https://github.com/manishray2233/Job_app",
-    webapp: "https://github.com/manishray2233/Job_app",
+    report: "https://www.canva.com/design/DAGws4gj4O4/uhJA04OyEvhua6HBk2mCog/edit?utm_content=DAGws4gj4O4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
   },
   {
     id: 1,
-    title: "Affiliate Marketing Strategy for Myntra",
+    title: "Affiliate Strategy for Myntra",
     date: "Aug 2025",
     "description": "I developed a comprehensive affiliate marketing strategy for Myntra 🛍️, focusing on boosting sales 📈, acquiring Gen Z and Tier 2/3 customers, and driving repeat purchases.\n\nI conducted market & competitor research, built customer personas like Trendy Tina 👗, and designed a partner mix with influencers, publishers, coupon sites, and cashback platforms.\n\nI created tiered commission structures 💰, seasonal bonuses, and regional campaigns supported by reels, UGC, and festival tie-ins.\n\nTo measure impact, I set up KPI tracking and ROI dashboards 📊, while introducing AI fraud detection, AR try-ons, and live shopping pilots.\n\nThe plan projected a strong 4:1 ROI, proving affiliate marketing as a scalable growth engine.",
     image:
-      "https://media.licdn.com/dms/image/v2/D562DAQF-RPAJjuWrhg/profile-treasury-document-cover-images_480/B56Zj12zpcHMCE-/0/1756471523019?e=1757246400&v=beta&t=PQOrmOBy9rmVgb9Z6Hja969AVktTFCfUfX5wHWhidAg",
-    tags: ["React Native", "JavaScript", "Axios"],
+      "https://raw.githubusercontent.com/manishray2233/images/refs/heads/main/Myntra%E2%80%99s%20affiliate.jpg",
+    tags: ["Affiliate Marketing", "Content Strategy", "Growth Strategy", "AI"],
     category: "marketing",
-    github: "https://github.com/manishray2233/Job_app",
-    webapp: "https://github.com/manishray2233/Job_app",
+    report: "https://www.canva.com/design/DAGwPNAc8WU/hxUFyIaJcxPBjui6SwQJIQ/edit?utm_content=DAGwPNAc8WU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
   },
   {
     id: 2,
@@ -335,11 +333,10 @@ export const projects = [
     "description": "I created a strategic IMC plan for Tata Nexon EV 2025 ⚡ to help Tata regain >45% EV market share 🏆.\n\nI analyzed the Indian EV market, ran a SWOT & competitor study (MG, Mahindra, Hyundai, BYD), and built personas 👥 like tech-savvy professionals and eco-conscious influencers to refine targeting.\n\nI designed a multi-channel mix – Digital & Influencer (40%), Traditional (30%), Experiential (20%), and Regional (10%) – with a ₹10 Cr budget 💰.\n\nThe plan focused on brand recall, test drives, and lead generation, with strong risk management strategies for safety, subsidies, and charging gaps.\n\nFinally, I positioned Tata as “India’s EV for Everyone” 🇮🇳 through aggressive, data-driven marketing."
 ,
     image:
-      "https://media.licdn.com/dms/image/v2/D562DAQEhQPNB6DzFIg/profile-treasury-document-cover-images_480/B56Zj2hI2AHABM-/0/1756482569121?e=1757246400&v=beta&t=ZA-wrdIAehi7t5K_rCu5XBOIwlGUD6lhVOrNZoemxno",
-    tags: ["React Native", "JavaScript", "Axios"],
+      "https://raw.githubusercontent.com/manishray2233/images/refs/heads/main/Nexon.ev.jpg",
+    tags: ["Integrated Marketing", "Risk Management", "AI", "Competitive Analysis"],
     category: "marketing",
-    github: "https://github.com/manishray2233/Job_app",
-    webapp: "https://github.com/manishray2233/Job_app",
+    report: "https://www.canva.com/design/DAGv7gKqJfU/BebL7YSgb9XJbdW8fqVmMQ/edit?utm_content=DAGv7gKqJfU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
   },
   {
     id: 2,
