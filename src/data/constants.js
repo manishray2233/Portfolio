@@ -11,7 +11,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/manishray2233",
   resume:
-    "https://drive.google.com/file/d/1YE6q2Dvr0-ZoAzr4E9W6ESqwcKvE5c_F/view?usp=sharing",
+    "https://drive.google.com/file/d/1Jq8FXLUdgrmyHiTpeuBBcAc-cEkGcPq7/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/manish-kumar-ray/",
   // twitter: "https://twitter.com/RishavChanda",
   // insta: "https://www.instagram.com/rishav_chanda/",
@@ -41,6 +41,14 @@ export const skills = [
       {
         name: "ChatGPT",
         image: "data:image/png;base64,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",
+      },  
+      {
+        name: "Claude",
+        image: "https://imgs.search.brave.com/WpN7bfy9ZPFbNqxKOV2PJ5MDPOdwSh_EnRv3RYSFirg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9i/L2IwL0NsYXVkZV9B/SV9zeW1ib2wuc3Zn",
+      },
+      {
+        name: "Gemini",
+        image: "https://imgs.search.brave.com/Ay1St93MenLC5FJmlz77Bgpv1gS6IOUMoRjnFusL57s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2xv/YmVodWIvbG9iZS1p/Y29ucy9yZWZzL2hl/YWRzL21hc3Rlci9w/YWNrYWdlcy9zdGF0/aWMtcG5nL2xpZ2h0/L2dlbWluaS1jb2xv/ci5wbmc",
       },
       {
         name: "Perplexity",
@@ -147,9 +155,34 @@ export const experiences = [
   {
     id: 0,
     img: "",
+    role: "Digital Marketing Executive",
+    company: "Mylstone Digital Services",
+    date: "NOV 2025 - Present",
+    desc: {
+      intro: "At Mylstone Digital Service, I built the company website from scratch and contributed to updates on 5 additional sites. I managed an AI-driven Instagram page, growing reach from 200 to 1K+ views organically in one month. I also launched 30+ Meta Ad campaigns across 5 clients, handled daily reporting, and executed WhatsApp bulk marketing campaigns.",
+      // points: [
+      //   "Delivered responsive, SEO-friendly frontends that improved client visibility.",
+      //   "Integrated marketing features like analytics tracking, landing pages, and conversion-focused designs to support business growth.",
+      //   "Collaborated closely with clients, translating business goals into impactful digital solutions."
+      // ]
+    },
+    skills: [
+      "Meta Ads Management",
+      "Social Media Marketing",
+      "Website Development",
+      "Content Strategy & Creation",
+      "WhatsApp Marketing",
+      "Campaign Reporting & Analytics",
+      "AI-Driven Content Tools",
+    ],
+    // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+  },
+  {
+    id: 2,
+    img: "",
     role: "Founder & Digital Marketer",
     company: "Zyra Beauty | Self-Employed",
-    date: "Aug 2024 - May 2025",
+    date: "AUG 2024 - MAY 2025",
     desc: {
       intro: "Managed end-to-end operations including website creation, content strategy, payment integration, sales, and ads. Planned and executed digital marketing campaigns using Meta Ads. Scaled the store’s presence in India by driving traffic, improving conversion rates, and boosting overall sales performance.",
       // points: [
@@ -165,24 +198,6 @@ export const experiences = [
       "Meta Ads Manager",
       "Meta Business Suite",
       "Shiprocket",
-    ],
-    // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
-  },
-  {
-    id: 2,
-    img: "",
-    role: "Founder",
-    company: "Curvez | Self-Employed",
-    date: "Apr 2025 - May 2025",
-    desc: {
-      intro: " Created and launched an international e-commerce platform focused on shapewear and fashion. Designed user-friendly, conversion-optimized layouts to improve shopping experience. Implemented global SEO strategies and optimized site structure to attract and retain international customers.",
-      // points: [
-      //   "Delivered responsive, SEO-friendly frontends that improved client visibility.",
-      //   "Integrated marketing features like analytics tracking, landing pages, and conversion-focused designs to support business growth.",
-      //   "Collaborated closely with clients, translating business goals into impactful digital solutions."
-      // ]
-    },
-    skills: [
       "PlusBase",
       "Facebook",
       "Instagram",
